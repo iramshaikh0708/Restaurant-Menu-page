@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Delights Restaurant</title>
+  <style>
+   body {
+    font-family: Arial, console;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9c91e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    
+font-family:arial , console;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dish {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.dish h3 {
+    color: #f9c91e;
+}
+
+.dish p {
+    margin: 5px 0;
+}
+  </style>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8;">
+
+    <header>
+        <h1>Indian Delights Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Indian Delights Restaurant</h2>
+        <p>Experience the rich flavors of India right here!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing authentic Indian cuisine to your table. Our chefs are experts in crafting dishes that capture the essence of Indian flavors.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="dish">
+            <h3>Butter Chicken</h3>
+
+            <p>A classic North Indian dish cooked with butter, cream, and a blend of spices.</p>
+            <p>Price: $12.99</p>
+          <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="dish">
+        <h3>Butter Chicken</h3>
+        <p>A classic North Indian dish cooked with butter, cream, and a blend of spices.</p>
+        <p>Price: $12.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Panner Tikka</h3>
+        <p>Chunks of paneer marinated in yogurt and spices, grilled to perfection.</p>
+        <p>Price: $10.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Rogan Josh</h3>
+        <p>Aromatic lamb curry cooked with Kashmiri spices.</p>
+        <p>Price: $14.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Chole Bhature</h3>
+        <p>Spicy chickpea curry served with deep-fried bread.</p>
+        <p>Price: $9.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Tandoori Chicken</h3>
+        <p>Chicken marinated in yogurt and spices, roasted in a tandoor (clay oven).</p>
+        <p>Price: $11.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Masala Dosa</h3>
+        <p>Thin, crispy crepe made from rice and lentil batter, filled with spiced potatoes.</p>
+        <p>Price: $8.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Palak Paneer</h3>
+        <p>Creamy spinach curry with cubes of paneer.</p>
+        <p>Price: $11.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Vegetable Biryani</h3>
+        <p>Fragrant basmati rice cooked with mixed vegetables and aromatic spices.</p>
+        <p>Price: $13.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Gulab Jamun</h3>
+        <p>Deep-fried milk balls soaked in sugar syrup, served hot.</p>
+        <p>Price: $6.99</p>
+    </div>
+
+    <div class="dish">
+        <h3>Chicken Tikka Masala</h3>
+        <p>Grilled chicken pieces cooked in a creamy tomato-based sauce.</p>
+        <p>Price: $13.99</p>
+    </div>
+</section>
+
+        </div>
+        <!-- Add more dishes here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or feedback? Reach out to us!</p>
+        <p>Email: info@indiandelights.com</p>
+        <p>Phone:+91258749635</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Indian Delights Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
